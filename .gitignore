@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Vite cache
+.vite/
+
+# Environment variable files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# macOS system files
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Vercel cache
+.vercel/
